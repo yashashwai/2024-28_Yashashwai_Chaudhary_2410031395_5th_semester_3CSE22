@@ -1,90 +1,475 @@
 # 2024-28_Yashashwai_Chaudhary_2410031395_5th_semester_3CSE22
 
-# 5th Semester Internship Repository
+# Deloitte Technology & Forensic Analytics Virtual Internship
 
-## Deloitte Technology & Forensic Analytics Virtual Internship
-
-**Student:** Yashashwai Chaudhary  
-**Roll No.:** 2410031395  
-**Programme:** B.Tech – Computer Science & Engineering  
-**Batch:** 2024–2028  
-**Section:** 3CSE22  
-**Institute:** IILM University, Greater Noida  
+![Deloitte](https://img.shields.io/badge/Internship-Deloitte-86BC25)
+![Forage](https://img.shields.io/badge/Platform-Forage-blue)
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Tableau](https://img.shields.io/badge/Tableau-Data%20Visualization-orange)
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-Data%20Analysis-green)
 
 ---
 
-## 📌 About This Repository
+## 👨‍🎓 Student Information
 
-This repository contains the documentation and supporting materials for my **Deloitte Technology & Forensic Analytics Virtual Internship**, completed through **Forage**.
-
-The internship focused on practical applications of data analysis, business intelligence, forensic analytics, and data visualization. The work involved analyzing industrial IoT telemetry data and performing a pay-equity analysis using structured datasets.
-
-This repository serves as an academic record of the internship and contains the relevant reports, presentation, and completion certificate.
-
----
-
-## 🏢 Internship Details
-
-| Detail | Information |
+| Field | Details |
 |---|---|
-| Organization | Deloitte |
-| Program | Deloitte Technology & Forensic Analytics Virtual Internship |
-| Platform | Forage |
-| Client Case Study | Daikibo Industrials |
-| Duration | July 1 – August 30, 2026 |
-| Domain | Data Analytics & Forensic Technology |
+| **Name** | Yashashwai Chaudhary |
+| **Roll Number** | 2410031395 |
+| **Programme** | B.Tech – Computer Science & Engineering |
+| **Batch** | 2024–2028 |
+| **Section** | 3CSE22 |
+| **Institute** | IILM University, Greater Noida, Uttar Pradesh |
+| **Semester** | 5th Semester |
+| **Internship Domain** | Technology & Forensic Analytics |
+| **Internship Duration** | July 1 – August 30, 2026 |
+| **Platform** | Forage |
 
 ---
 
-## 🎯 Internship Objectives
+# 📌 About the Internship
 
-The major objectives of the internship were:
+This repository contains the academic documentation and supporting materials for my **Deloitte Technology & Forensic Analytics Virtual Internship**, completed through **Forage**.
+
+The internship provided practical exposure to data analytics, business intelligence, forensic technology, data visualization, and analytical problem-solving.
+
+The primary case study focused on **Daikibo Industrials**, a fictional international manufacturing organization operating automated facilities across:
+
+- Tokyo
+- Osaka
+- Berlin
+- Shenzhen
+
+The internship involved analyzing industrial IoT telemetry data to identify operational downtime and machine-level issues. A separate dataset was also analyzed to evaluate compensation and pay-equity patterns across different job roles.
+
+---
+
+# 🎯 Internship Objectives
+
+The main objectives of the internship were:
 
 - Analyze raw industrial IoT telemetry data.
-- Transform multi-level JSON data into useful analytical information.
-- Identify machine and factory downtime patterns.
-- Build interactive dashboards using Tableau.
-- Create calculated fields for downtime analysis.
-- Perform device-level and factory-level comparisons.
-- Analyze compensation data for pay-equity patterns.
-- Classify job roles according to pay-equity criteria.
-- Apply data-driven reasoning to identify potential operational and organizational issues.
+- Parse and validate multi-level JSON data.
+- Convert raw machine-status information into meaningful downtime measures.
+- Identify factories with significant operational downtime.
+- Identify machine types contributing to downtime.
+- Create interactive visualizations using Tableau.
+- Develop a dashboard with factory-level and device-level analysis.
+- Implement dashboard filtering and drill-down functionality.
+- Analyze compensation data across different job roles.
+- Classify pay-equity outcomes using analytical logic.
+- Apply data-driven reasoning to operational and forensic problems.
 
 ---
 
-## 🛠️ Technologies & Tools Used
+# 🏢 Organization & Case Study
 
-- **Tableau** – Data visualization and interactive dashboard development
-- **Microsoft Excel** – Data analysis and pay-equity classification
-- **Python 3.12** – Data verification and analysis
-- **Pandas** – Data manipulation and analysis
-- **openpyxl** – Excel file processing
-- **Matplotlib** – Data verification and visualization
-- **JSON** – Industrial telemetry data
-- **XLSX** – Structured compensation and role data
-- **HTML5 / CSS3 / JavaScript** – Local dashboard simulation
+## Deloitte
 
----
+Deloitte is a global professional services network providing services across areas including audit, consulting, financial advisory, risk advisory, and tax.
 
-## 📊 Key Work Completed
+The internship case study focused on applying data analytics and forensic technology concepts to a simulated industrial scenario.
 
-### 1. Industrial Telemetry Analysis
+## Forage
 
-The internship involved analyzing telemetry data generated by automated manufacturing equipment.
+The virtual internship was hosted on **Forage**, an online platform that provides practical, self-paced work-experience simulations developed in collaboration with organizations.
 
-The dataset contained:
+## Daikibo Industrials
 
-- **160,704 telemetry records**
-- **9 machine types**
-- **4 manufacturing facilities**
+Daikibo Industrials was the fictional manufacturing client used for the telemetry analysis.
 
-The telemetry data was transformed and analyzed to identify patterns in machine health and downtime.
-
-### 2. Downtime Analysis
-
-An analytical measure was created to convert unhealthy machine-status events into downtime.
-
-The calculated logic used during the analysis was:
+The organization operates automated manufacturing facilities across four locations:
 
 ```text
+Tokyo
+Osaka
+Berlin
+Shenzhen
+🧩 Problem Statement
+
+Modern manufacturing facilities use large numbers of automated machines and IoT sensors to monitor equipment health and operational conditions.
+
+The telemetry generated by these systems can contain a large amount of nested and multi-level JSON data, making it difficult to directly identify:
+
+Machine failures
+Factory downtime
+Device-level problems
+Operational bottlenecks
+Root causes of downtime
+
+At the same time, compensation data across different job roles can be analyzed to identify potential pay-equity issues.
+
+The internship addressed these problems through two major analytical tasks:
+
+Raw Telemetry
+      ↓
+Data Ingestion
+      ↓
+Data Transformation
+      ↓
+Downtime Calculation
+      ↓
+Visualization
+      ↓
+Operational Insights
+
+and:
+
+Compensation Data
+      ↓
+Data Analysis
+      ↓
+Pay-Equity Classification
+      ↓
+Fair / Unfair / Highly Discriminative
+📊 Datasets
+1. Industrial Telemetry Dataset
+
+The telemetry dataset contained:
+
+160,704 JSON records
+9 machine types
+4 manufacturing facilities
+
+The data represented machine health information collected from the manufacturing facilities.
+
+The raw telemetry data was transformed into a format suitable for analysis and visualization.
+
+2. Pay-Equity Dataset
+
+The second dataset contained compensation information for different job roles.
+
+The analysis considered 38 job-role profiles and classified the applicable profiles into different pay-equity categories.
+
+The resulting classification included:
+
+Fair
+Unfair
+Highly Discriminative
+🛠️ Technologies & Tools
+
+The internship involved the following technologies and tools:
+
+Technology / Tool	Purpose
+Tableau	Data visualization and dashboard development
+Microsoft Excel	Pay-equity analysis and spreadsheet modelling
+Python 3.12	Data verification and analysis
+Pandas	Data manipulation and analysis
+openpyxl	Excel file processing
+Matplotlib	Data verification and plotting
+JSON	Industrial telemetry data format
+XLSX	Structured compensation data
+HTML5	Dashboard simulation
+CSS3	Dashboard styling
+JavaScript	Local dashboard functionality
+🔄 Project Workflow
+
+The internship workflow consisted of six major modules.
+
+Module 1 — Data Ingestion
+
+The industrial telemetry JSON dataset was imported and examined.
+
+The data contained multiple levels of nested information, requiring the structure and schema to be understood before analysis.
+
+Module 2 — Measure Engineering
+
+A Tableau calculated field was created to convert unhealthy machine-status messages into downtime.
+
+The logic used was:
+
 IF [Status] = 'unhealthy' THEN 10 ELSE 0 END
+
+Each unhealthy status was therefore represented as 10 minutes of downtime for the analysis.
+
+Module 3 — Factory-Level Analysis
+
+A factory-level visualization was created to compare cumulative downtime across the manufacturing facilities.
+
+The visualization used a horizontal bar-chart format and was sorted to make the differences between facilities easier to identify.
+
+Module 4 — Device-Level Analysis
+
+A second visualization was created to compare downtime across different machine/device types.
+
+This made it possible to determine which types of equipment contributed most significantly to operational downtime.
+
+Module 5 — Interactive Dashboard
+
+The factory-level and device-level visualizations were combined into an interactive Tableau dashboard.
+
+A "Use as Filter" action was implemented so that selecting a factory could filter the device-level analysis.
+
+The resulting workflow was:
+
+Factory Selection
+       ↓
+Device-Level Filtering
+       ↓
+Identify Major Downtime Contributors
+Module 6 — Pay-Equity Analysis
+
+The compensation dataset was analyzed using spreadsheet-based logic.
+
+The job roles were classified into:
+
+Fair
+Unfair
+Highly Discriminative
+
+This provided a structured approach for identifying potential compensation disparities.
+
+🏗️ System Architecture
+
+The overall analytical workflow can be represented as:
+
+┌─────────────────────────────────────┐
+│          DATA INGESTION             │
+│                                     │
+│ JSON Telemetry + XLSX Role Data     │
+└──────────────────┬──────────────────┘
+                   │
+                   ▼
+┌─────────────────────────────────────┐
+│      TRANSFORMATION & ANALYSIS      │
+│                                     │
+│ Data Validation                     │
+│ Downtime Calculation                │
+│ Pay-Equity Classification           │
+└──────────────────┬──────────────────┘
+                   │
+                   ▼
+┌─────────────────────────────────────┐
+│       VISUALIZATION & BI            │
+│                                     │
+│ Tableau Charts                      │
+│ Dashboard                           │
+│ Interactive Filtering               │
+└──────────────────┬──────────────────┘
+                   │
+                   ▼
+┌─────────────────────────────────────┐
+│       DECISION & FORENSICS          │
+│                                     │
+│ Downtime Identification             │
+│ Root-Cause Analysis                 │
+│ Pay-Equity Classification            │
+└─────────────────────────────────────┘
+📈 Key Findings
+
+The analysis produced several significant findings.
+
+Total Downtime
+
+The total downtime identified across the four factories was:
+
+1,030 minutes
+
+Equivalent to approximately:
+
+17.2 hours
+Highest-Downtime Facility
+
+The analysis identified Daikibo Seiko as the facility with the highest downtime.
+
+Daikibo Seiko
+↓
+480 minutes
+
+The analysis attributed the downtime at this facility to the LaserWelder.
+
+Pay-Equity Classification
+
+The compensation analysis resulted in the following classification:
+
+Category	Number of Roles
+Fair	19
+Unfair	11
+Highly Discriminative	7
+Total Classified	37
+
+Note: The source presentation states that the compensation dataset contained 38 job-role profiles, while the reported classification totals 37 roles. This README preserves those reported figures rather than assuming or inventing the classification of the remaining profile.
+
+💡 Major Insights
+
+The internship demonstrated how raw operational data can be transformed into useful business intelligence.
+
+Operational Analysis
+
+Telemetry data can be used to:
+
+Identify high-downtime facilities.
+Identify problematic machine types.
+Compare operational performance.
+Support root-cause investigation.
+Improve visibility into machine health.
+Data Visualization
+
+Interactive dashboards can make large datasets easier to understand by allowing users to:
+
+Compare facilities.
+Filter results.
+Drill down into device-level information.
+Identify major contributors to downtime.
+Forensic Analytics
+
+Structured analytical methods can help identify unusual patterns in organizational datasets, including potential compensation disparities.
+
+📚 Skills Developed
+
+During the internship, I developed practical exposure to:
+
+Data Analytics
+Data cleaning
+Data validation
+Data transformation
+Exploratory data analysis
+Structured data interpretation
+Data Visualization
+Tableau dashboards
+Bar charts
+Interactive filtering
+Dashboard design
+Data-driven presentation
+Python
+Python scripting
+Pandas
+openpyxl
+Matplotlib
+Data verification
+Excel
+Spreadsheet modelling
+Nested logic
+Conditional classification
+Compensation analysis
+Forensic Technology
+Analytical investigation
+Root-cause analysis
+Identifying operational anomalies
+Pay-equity classification
+Data-driven decision making
+📂 Repository Structure
+2024-28_Yashashwai_Chaudhary_2410031395_5th_semester_3CSE22/
+│
+├── README.md
+│
+├── Data_Analyst Virtual Internship Certificate.pdf
+│
+├── Internship_Report_Yashashwai.pdf
+│
+└── PPT_Deloitte_Data_Analyst_Internship_Yashashwai.pdf
+📄 Repository Files
+Internship Certificate
+
+The certificate documents the completion of the virtual internship.
+
+File:
+
+Data_Analyst Virtual Internship Certificate.pdf
+Internship Report
+
+The internship report contains the detailed documentation of the work performed during the internship, including:
+
+Internship overview
+Problem statement
+Objectives
+Methodology
+Technologies used
+Data analysis
+Findings
+Outcomes
+
+File:
+
+Internship_Report_Yashashwai.pdf
+Internship Presentation
+
+The presentation provides a concise overview of the internship and its major findings.
+
+It includes:
+
+Student profile
+Internship overview
+Problem statement
+Project objectives
+Technologies used
+System architecture
+Methodology
+Key findings
+Certification
+Conclusion
+
+File:
+
+PPT_Deloitte_Data_Analyst_Internship_Yashashwai.pdf
+📋 Project Summary
+Category	Details
+Project Type	Virtual Internship / Data Analytics
+Organization	Deloitte
+Platform	Forage
+Case Study	Daikibo Industrials
+Primary Domain	Technology & Forensic Analytics
+Telemetry Records	160,704
+Machine Types	9
+Manufacturing Facilities	4
+Total Downtime	1,030 minutes
+Highest-Downtime Facility	Daikibo Seiko
+Highest Facility Downtime	480 minutes
+Pay-Equity Profiles	38
+Reported Classified Roles	37
+Fair	19
+Unfair	11
+Highly Discriminative	7
+🎓 Academic Context
+
+This repository has been created as part of the academic documentation associated with the 5th semester of the B.Tech Computer Science & Engineering programme.
+
+It documents the practical learning and analytical work completed through the Deloitte Technology & Forensic Analytics Virtual Internship.
+
+👤 About Me
+
+Yashashwai Chaudhary
+
+B.Tech Computer Science & Engineering
+IILM University, Greater Noida
+Batch: 2024–2028
+Section: 3CSE22
+Roll No.: 2410031395
+
+🙏 Acknowledgement
+
+I would like to acknowledge Deloitte and Forage for providing the virtual internship experience and practical case studies that allowed me to apply concepts related to data analytics, visualization, and forensic technology in an industry-oriented environment.
+
+📜 Certification
+
+The repository includes the internship completion certificate as supporting documentation.
+
+The internship was completed during:
+
+July 1 – August 30, 2026
+📌 Conclusion
+
+The Deloitte Technology & Forensic Analytics Virtual Internship provided practical exposure to the process of converting raw datasets into actionable analytical insights.
+
+The project covered the complete analytical workflow, from data ingestion and transformation to visualization and interpretation. Working with industrial telemetry data demonstrated how data can be used to identify operational bottlenecks, while the pay-equity analysis demonstrated the use of structured analytical logic for organizational data.
+
+Overall, the internship strengthened my understanding of:
+
+Data
+  ↓
+Analysis
+  ↓
+Visualization
+  ↓
+Insights
+  ↓
+Decision Making
+⭐ Repository Information
+
+Student: Yashashwai Chaudhary
+Roll No.: 2410031395
+Section: 3CSE22
+Semester: 5th
+Programme: B.Tech CSE
+Institute: IILM University, Greater Noida
+Internship: Deloitte Technology & Forensic Analytics
